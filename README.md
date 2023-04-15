@@ -9,7 +9,7 @@ The Leveret will be an online blog that features informal discourse on anthropol
 ### Dependencies
 
 * Bootstrap 5 
-* Php 
+* PHP 7.4.33
 * HTML
 
 ### Installing
