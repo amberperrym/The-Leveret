@@ -4,7 +4,7 @@
 <div class="jumbotron">
   <link rel= "stylesheet" href="style.css"> 
   <div class="container text-center">
-    <img src="assets/img/logo with transparent background.png">
+    <img src="assets/img/logo white background copy.png">
   </div>
 </div>
 <meta charset="utf-8">
