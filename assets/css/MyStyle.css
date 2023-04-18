@@ -7,7 +7,6 @@
 .navbar-toggler-icon{
   filter: invert(100%)
 }
-
 .jumbotron {
   background-color: #FFFFFF;
   padding: 25px;
@@ -32,6 +31,8 @@ footer {
 /* Set color for each brand */
 /* Facebook */
 .fa-facebook {
+  width: 30px;
+  height: 30px; 
   background: #EDD5D0;
   color: #591202;
 }
