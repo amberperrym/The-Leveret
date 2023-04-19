@@ -1,10 +1,10 @@
 <footer>
   <div class="container-fluid">
-    <div class="row justify-content-center">
-      <div class="col-md-6 text-center">
+    <div class="row">
+      <div class="col-md-6 text-left text-center mb-3 mb-md-0">
         <p style="color:#EDD5D0;">© The Leveret | All Rights Reserved</p>
       </div>
-      <div class="col-md-6 text-center">
+      <div class="col-md-6 text-right text-center">
         <!-- Add icon library -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- Add font awesome icons -->

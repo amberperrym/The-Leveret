@@ -1,28 +1,56 @@
+/* Style navbar */
 .navbar {
-  background-color: #000000 !important;
+  background-color: #0D0D0D !important;
   margin-bottom: 0;
   border-radius: 0;
   background-image: none;
 }
+/* Style nav items */
+.nav-item {
+  text-align: center;
+  margin: 10px;
+  float: left;
+  background-color: #F8F8F8;
+  color: #000000;
+  border-radius: 12px;
+}
+.navbar-brand {
+  padding: 5px;
+  text-align: center;
+  margin: 10px;
+  float: left;
+  background-color: #F8F8F8;
+  color: #000000;
+  border-radius: 12px;
+}
+
+/* Add a hover effect */
+.nav-item:hover {
+  background-color: #D0CCCC;
+}
+
+.navbar-brand:hover {
+  background-color: #D0CCCC;
+}
+
 .navbar-toggler-icon{
   filter: invert(100%)
 }
+
 .jumbotron {
-  background-color: #FFFFFF;
-  padding: 25px;
+  background-color: #F8F8F8;
 }
 footer {
   background-color: #591202;
-  padding: 25px;
+  padding: 10px;
 }
 /* Style all font awesome icons */
 .fa {
-  padding: 10px;
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
   text-decoration: none;
-  border-radius: 50%;
-  margin: 5px;
+  margin: 25px;
+  display: flex;
 }
 /* Add a hover effect */
 .fa:hover {
@@ -31,18 +59,37 @@ footer {
 /* Set color for each brand */
 /* Facebook */
 .fa-facebook {
-  width: 30px;
-  height: 30px; 
-  background: #EDD5D0;
-  color: #591202;
+  color: #EDD5D0;
 }
 /* Twitter */
 .fa-twitter {
-  background: #EDD5D0;
-  color: #591202;
+  color: #EDD5D0;
 }
 /* Instagram */
 .fa-instagram {
-  background: #EDD5D0;
-  color: #591202;
+  color: #EDD5D0;
+}
+
+/* Style subscribe block button */
+
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #D0ECF2;
+  color: #2D3334;
+  padding: 14px 28px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  border: 2px solid #2D3334;
+}
+/* Add a hover effect */
+.block:hover {
+  background-color: #733E1F;
+  color: #D0ECF2;
+  border: 2px solid #2D3334;
+  transition-duration: 4ms;
 }
