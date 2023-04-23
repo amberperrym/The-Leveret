@@ -11,6 +11,7 @@ The Leveret will be an online blog that features informal discourse on anthropol
 * Bootstrap 5 
 * PHP 7.4.33
 * HTML
+*MySQL Version 5.7.39
 
 ### Installing
 
