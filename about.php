@@ -38,12 +38,12 @@
   <div class="row">
   <div class="col-sm-4">
       
-        <img src="/leveret/assets/img/camille.jpg" class="img-fluid" alt="image desc">
+        <img src="/leveret/assets/img/con2.png" class="img-fluid" alt="image desc">
         
   </div>
     <div class="col-sm-4">
       
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc sed id semper risus in hendrerit gravida. Venenatis lectus magna fringilla urna. Est ullamcorper eget nulla facilisi etiam dignissim diam quis enim. In nulla posuere sollicitudin aliquam ultrices. Sit amet volutpat consequat mauris nunc congue nisi. Sit amet nisl purus in. Tincidunt arcu non sodales neque sodales ut etiam sit. Eget gravida cum sociis natoque penatibus. Id aliquet lectus proin nibh nisl condimentum id venenatis a.
+      <p>Amber Perry-Marinov is persuing her masters in Information Studies at McGill University. Here, she is particularly interested in how we judge the authenticity of cultural heritage and, especially, the role that narrative plays in content development and dissemination. Her other main scholarly interests are literary: Gothic literature, contemporary poetry that appropriates the gothic mode, and ecocriticism. 
       </p>
   </div>
 </div>
