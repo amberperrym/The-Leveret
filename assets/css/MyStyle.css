@@ -1,14 +1,117 @@
+/* Style navbar */
+.navbar {
+  background-color: #0D0D0D !important;
+  margin-bottom: 0;
+  border-radius: 0;
+  background-image: none;
+}
+/* Style nav items */
+.nav-item {
+  text-align: center;
+  margin: 10px;
+  float: left;
+  background-color: #F8F8F8;
+  color: #000000;
+  border-radius: 12px;
+  font-family: '<Merriweather>', serif;
+}
+.navbar-brand {
+  padding: 5px;
+  text-align: center;
+  margin: 10px;
+  float: left;
+  background-color: #F8F8F8;
+  color: #000000;
+  border-radius: 12px;
+  font-family: '<Merriweather>', serif;
+}
 
- .navbar {
-      background-color: #000000;
-      margin-bottom: 0;
-      border-radius: 0;
-     }
- footer {
-     background-color: #591202;
-     padding: 25px;
-     }
+/* Add a hover effect */
+.nav-item:hover {
+  background-color: #D0CCCC;
+}
+
+.navbar-brand:hover {
+  background-color: #D0CCCC;
+}
+
+.navbar-toggler-icon{
+  filter: invert(100%)
+}
+
 .jumbotron {
-    background-color: #FFFFFF;
-    padding: 25px;
-    }
+  background-color: #F8F8F8;
+}
+
+.article-container{
+  border: 2px solid black;
+  padding: 10px;
+  background-color: #D0CCCC;
+}
+
+.articles:hover {
+opacity: 2;
+}
+
+footer {
+  background-color: #A3CFED;
+  padding: 10px;
+  font-family: '<Merriweather>', serif;
+}
+/* Style all font awesome icons */
+.fa {
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 25px;
+  display: flex;
+}
+/* Add a hover effect */
+.fa:hover {
+  opacity: 0.7;
+}
+/* Set color for each brand */
+/* Facebook */
+.fa-facebook {
+  color: #2D3334;
+}
+/* Twitter */
+.fa-twitter {
+  color: #2D3334;
+}
+/* Instagram */
+.fa-instagram {
+  color: #2D3334;
+}
+
+/* Style subscribe block button */
+
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #E6F2FB;
+  color: #2D3334;
+  padding: 14px 28px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  border: 2px solid #2D3334;
+}
+/* Add a hover effect */
+.block:hover {
+  background-color: #D0CCCC;
+  color: #2D3334;
+  border: 2px solid #2D3334;
+  transition-duration: 4ms;
+}
+
+/*Fonts */
+h5 {
+  font-family: '<Scheherazade New>', serif;
+}
+p {
+  font-family: '<Merriweather>', serif;
+}
