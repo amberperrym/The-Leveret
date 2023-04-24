@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"></html>
+<html lang="en">
 <link rel="stylesheet" href="assets/css/MyStyle.css">
     <head>
         <meta charset="utf-8">
@@ -25,7 +25,7 @@
     <div class="row">
 
      
-    <div class="col-sm-4">
+    <div class="col-sm-12 col-md-6 col-lg-3">
       <div style="position: relative; width: 100%;">
         <img width="100%" height="175" src="assets/img/HistoryOfScience.jpeg" style="object-fit: cover;">
         <div style="position: absolute; bottom: 0; left: 0; right: 0; background-color: rgba(0, 0, 0, 0.5); color: white; padding: 10px;">
@@ -35,7 +35,7 @@
       </div>
     </div>
 
-    <div class="col-sm-4">
+    <div class="col-sm-12 col-md-6 col-lg-3">
       <div style="position: relative; width: 100%;">
         <img width="100%" height="175" src="assets/img/Hieroglyphs2.jpeg" style="object-fit: cover;">
         <div style="position: absolute; bottom: 0; left: 0; right: 0; background-color: rgba(0, 0, 0, 0.5); color: white; padding: 10px;">

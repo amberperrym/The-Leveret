@@ -46,7 +46,7 @@
         <div class="col-md-4">
           <img src="/assets/img/camille.jpg" class="img-fluid bordered" alt="image desc" style="width:210px;height:210px; object-fit: cover;">
         </div>
-        <div class="col-sm-9" style="padding-left: 20px;">
+          <div class="col-sm-8" style="padding-left: 20px;">
           <p>Camille Gronan is a lifelong learner and animal lover. She graduated with honors from Dawson College in liberal arts and then pursued her interests in anthropology, history, and religious studies at McGill University, where she earned a BA degree. She is currently completing a Master's in Information Studies at McGill. When she isn't studying, you can find her taking care of her beloved menagerie of fish, amphibians, a bunny, and a dove. I am passionate about exploring new ideas and technologies while also nurturing my animal companions.</p>
         </div>
       </div>

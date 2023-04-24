@@ -1,5 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+date_default_timezone_set('America/Toronto'); //setting default timezone
+$date = new DateTime(); //Creating a variable for DateTime
+$TimeDate = $date->format('Y-m-d H:i:s'); 
+
+require 'database/db_login.php'; //load credentials 
+
+if(!empty($_POST['email']) && !empty($_POST['name']) && !empty($_POST['content'])){ //check if email,name, and content is submitted using POST method
+
+    //Extracting data from the database 
+    $sql = "INSERT INTO `Comments_Section` (`id`, `created_at`, `content`, `name`, `article_id`, `email`) VALUES (NULL, '$TimeDate', '".$_POST['content']."', '".$_POST['name']."', '".$_POST['article_id']."', '".$_POST['email']."')";
+    $stmt = $conn->prepare($sql);
+
+    //Creating New Event
+    if( $stmt->execute() ){  //executing query to update the database 
+        $message="Comment Submitted"; //Message to show comment was submitted
+    } else {
+        $message="Error was encountered in submitting comment."; //Message to show error in submitting comment
+    }
+}
+?>
+
+<html>
 <head>
     <link rel="stylesheet" href="assets/css/MyStyle.css">
     <meta charset="utf-8">
@@ -63,18 +84,33 @@
       </div>
     </li>
   </ul>
-  <form class="comment-form">
+
+<!-- comments form--> 
+<div class="container">
+<div class="row">
+  
     <h3>Add a Comment</h3>
 
-
-    <div class="form-group">
-      <label for="comment">Comment:</label>
-      <textarea id="comment" name="comment"></textarea>
-    </div><br>
-    <button type="submit">Submit</button>
+  <main class="comment-form"> 
+  <form action="#" method="POST">
+      <div class="mb-3">
+          <label for="FormControlInput1" class="form-label">Name</label>
+          <input type="text" class="form-control" id="FormControlInput1" placeholder="" name="name" required>
+        </div>
+      <div class="mb-3">
+          <label for="FormControlInput2" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="FormControlInput2" placeholder="" name="email" required>
+        </div>
+      <div class="mb-3">
+          <label for="FormControlText" class="form-label">Comment</label>
+          <textarea class="form-control" id="FormControlText" rows="3" name="content" required></textarea>
+        </div>
+        <?php echo "<p>".$message."</p>";?>
+      <button type="submit">Submit</button>
+  </main>
   </form>
+</div>
 </div><br>
-
 <?php include('footer.php'); ?>
 </body>
 </html>

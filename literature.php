@@ -24,7 +24,7 @@
   <div class="container-fluid">
     <div class="row">
 
-      <div class="col-sm-4">
+      <div class="col-sm-12 col-md-6 col-lg-3">
     <div style="position: relative; width: 100%;">
       <img width="100%" height="175" src="assets/img/FionaBenson.jpeg" style="object-fit: cover;">
       <div style="position: absolute; bottom: 0; left: 0; right: 0; background-color: rgba(0, 0, 0, 0.5); color: white; padding: 10px;">
@@ -34,7 +34,7 @@
     </div>
   </div>
     
-  <div class="col-sm-4">
+  <div class="col-sm-12 col-md-6 col-lg-3">
       <div style="position: relative; width: 100%;">
         <img width="100%" height="175" src="assets/img/Walden.jpeg" style="object-fit: cover;">
         <div style="position: absolute; bottom: 0; left: 0; right: 0; background-color: rgba(0, 0, 0, 0.5); color: white; padding: 10px;">
@@ -44,7 +44,7 @@
       </div>
     </div>  
     
-    <div class="col-sm-4">
+    <div class="col-sm-12 col-md-6 col-lg-3">
       <div style="position: relative; width: 100%;">
         <img width="100%" height="175" src="assets/img/Marg.Cavendish.jpeg" style="object-fit: cover;">
         <div style="position: absolute; bottom: 0; left: 0; right: 0; background-color: rgba(0, 0, 0, 0.5); color: white; padding: 10px;">
