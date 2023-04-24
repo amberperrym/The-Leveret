@@ -24,7 +24,7 @@
   <div class="container-fluid">
     <div class="row">
 
-        <div class="col-sm-3">
+        <div class="col-sm-4">
       <div style="position: relative; width: 100%;">
         <img width="100%" height="175" src="assets/img/CharlesDarwin.webp" style="object-fit: cover;">
         <div style="position: absolute; bottom: 0; left: 0; right: 0; background-color: rgba(0, 0, 0, 0.5); color: white; padding: 10px;">
@@ -34,7 +34,7 @@
       </div>
     </div>
 
-    <div class="col-sm-3">
+    <div class="col-sm-4">
       <div style="position: relative; width: 100%;">
         <img width="100%" height="175" src="assets/img/JohnJamesA.jpeg" style="object-fit: cover;">
         <div style="position: absolute; bottom: 0; left: 0; right: 0; background-color: rgba(0, 0, 0, 0.5); color: white; padding: 10px;">
