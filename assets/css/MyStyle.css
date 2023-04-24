@@ -144,3 +144,14 @@ p {
   background-color: #E6F2FB;
   padding: 10px;
 }
+
+/*comments section*/
+
+/*comments section*/
+.border-top {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #000000;
+  padding: 15px;
+}
