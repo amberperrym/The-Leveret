@@ -114,9 +114,31 @@ h5 {
 }
 p {
   font-family: '<Merriweather>', serif;
+  font-size: 20px;
 }
 
 /* About Us Page*/
+
+.img-container {
+  overflow: hidden;
+}
+
+.img-container img {
+  object-fit: cover;
+}
+
+.about-container {
+  background-color: #F8F8F8;
+  border: 1px solid #000000;
+}
+
+/* add border to bio photos*/
+.bordered {
+  border: 2px solid #E6F2FB;
+  background-color: #E6F2FB;
+  padding: 10px;
+}
+
 
 .cite-section {
   background-color: #0D0D0D;
@@ -124,26 +146,21 @@ p {
   padding: 20px;
   margin-top: 50px;
 }
-
 .cite-section p {
   margin: 10px 0;
 }
-
 .cite-section ol {
   margin: 10px 0;
   padding-left: 20px;
 }
-
 .cite-section ol li {
   margin: 5px 0;
 }
+.hanging-indent {
+  text-indent: -2em;
+  padding-left: em;
+  }
 
-/* add border to bio photos*/
-.bordered {
-  border: 1px solid #E6F2FB;
-  background-color: #E6F2FB;
-  padding: 10px;
-}
 
 /*comments section*/
 
@@ -154,4 +171,11 @@ p {
   flex-direction: column;
   border: 3px solid #000000;
   padding: 15px;
+}
+
+.comments ul,
+.comments ul li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }

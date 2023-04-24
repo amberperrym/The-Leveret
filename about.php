@@ -24,30 +24,48 @@
 <body class="p-3 m-0 border-0 bd-example">
   <?php include('header.php'); ?><br>
 
-  <div class="bg-3 text-center">   
-    <h3>Our Contributors</h3>
+  <div class="about-blog-section">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12">
+        <h3>About The Leveret</h3>
+        <br>
+        <p>The Leveret is an online blog that features informal discourse on anthropology, history, literature, and other humanities topics. Content is influenced by pertinent themes such as ecology, interiority, and current events and readers can expect to find critical analysis as well as stories and reflections. The Leveret publishes blog entries from two masters students in Information Studies with backgrounds in the humanities including Anthropology, English literature, and History with the idea that learning broadly and for enjoyment is enriching.</p>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+<div class="about-container"><br>
+    <div class="bg-3 text-center">   
+      <h3>Our Contributors</h3>
+    </div><br>
+    <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-7 d-flex align-items-center">
+        <div class="col-md-4">
+          <img src="/assets/img/camille.jpg" class="img-fluid bordered" alt="image desc" style="width:210px;height:210px; object-fit: cover;">
+        </div>
+        <div class="col-sm-9" style="padding-left: 20px;">
+          <p>Camille Gronan is a lifelong learner and animal lover. She graduated with honors from Dawson College in liberal arts and then pursued her interests in anthropology, history, and religious studies at McGill University, where she earned a BA degree. She is currently completing a Master's in Information Studies at McGill. When she isn't studying, you can find her taking care of her beloved menagerie of fish, amphibians, a bunny, and a dove. I am passionate about exploring new ideas and technologies while also nurturing my animal companions.</p>
+        </div>
+      </div>
+    </div>
   </div><br>
 
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-sm-2">
-        <img src="/assets/img/camille.jpg" class="img-fluid bordered" alt="image desc" style="width:210px;height:210px; object-fit: cover;">
+      <div class="container">
+      <div class="row justify-content-center">
+      <div class="col-md-7 d-flex align-items-center">
+        <div class="col-md-4">
+          <img src="/assets/img/Profile.jpeg" class="img-fluid bordered" alt="image desc" style="width:210px;height:210px; object-fit: cover;">
+        </div>
+        <div class="col-sm-8" style="padding-left: 20px;">
+          <p>Amber Perry is pursuing her masters in Information Studies at McGill University. Here, she is particularly interested in how we judge the authenticity of cultural heritage and, especially, the role that narrative plays in content development and dissemination. Her other main scholarly interests are literary: Gothic literature, contemporary poetry that appropriates the gothic mode, and ecocriticism. She is also excited about gardening and hiking!</p>
+        </div>
       </div>
-      <div class="col-sm-4">
-        <p>Camille Gronan is a lifelong learner and animal lover. She graduated with honors from Dawson College in liberal arts and then pursued her interests in anthropology, history, and religious studies at McGill University, where she earned a BA degree. She is currently completing a Master's in Information Studies at McGill. When she isn't studying, you can find her taking care of her beloved menagerie of fish, amphibians, a bunny, and a dove. I am passionate about exploring new ideas and technologies while also nurturing my animal companions.</p>
-      </div><br>
     </div>
-
-    <div class="row justify-content-center">
-      <div class="col-sm-2">
-        <img src="/assets/img/profile.jpeg" class="img-fluid bordered" alt="image desc" style="width:210px;height:210px; object-fit: cover;">
-      </div>
-      <div class="col-sm-4">
-        <p> Amber is pursuing her masters in Information Studies at McGill University. Here, she is particularly interested in how we judge the authenticity of cultural heritage and, especially, the role that narrative plays in content development and dissemination. Her other main scholarly interests are literary: Gothic literature, contemporary poetry that appropriates the gothic mode, and ecocriticism. She is also passionate about hiking and gardening!
-      </p>
-      </div>
+  </div><br>
 </div>
-</div><br>
 
 <div class="cite-section">
   <div class="container-fluid">
@@ -65,9 +83,9 @@
           <li>The URL or direct link to the post</li>
         </ol>
         <p>Use the following structure to cite a blog post in MLA 9:</p>
-        <p>Author’s Last Name, Author’s First Name. “Title of Post.” Blog Name, Publisher (only include this information if it is different than the name of the blog site), date blog post was published, URL. Column or section name (if applicable).</p><br>
+        <p class="hanging-indent">Author’s Last Name, Author’s First Name. “Title of Post.” Blog Name, Publisher (only include this information if it is different than the name of the blog site), date blog post was published, URL. Column or section name (if applicable).</p><br>
         <p>Use the following structure to cite a blog post in APA 7: </p>
-        <p>Author’s Last Name, First Initial. (Year, Month Day post was published). Title of post. Title of Blog. URL </p>
+        <p class="hanging-indent">Author’s Last Name, First Initial. (Year, Month Day post was published). Title of post. Title of Blog. URL </p>
       </div>
     </div>
   </div>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"></html>
+<html lang="en">
 <link rel="stylesheet" href="assets/css/MyStyle.css">
     <head>
         <meta charset="utf-8">
