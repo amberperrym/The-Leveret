@@ -2,8 +2,8 @@
 <link rel="stylesheet" href="assets/css/MyStyle.css">
     <div class="jumbotron">
          <div class="container text-center">
-         <img src="assets/img/logo.png">
-            </div>
+         <img src="assets/img/logo.png" href="/leveret/index.php">
+          </div>
     </div>
       <!-- Add icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-Ji9XoKYTGpH/wd0i6j7Dmbyy3Hq3m31GyKPrV7Q0XZ+YaHqpLzPdTD6gChEKWWTlRp6U7aw6DUVMv5f5Z6LXLA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
