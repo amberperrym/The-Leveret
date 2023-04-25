@@ -26,7 +26,7 @@
   font-family: '<Merriweather>', serif;
 }
 
-/* Add a hover effect */
+/* Add a hover effect to nav items */
 .nav-item:hover {
   background-color: #D0CCCC;
 }
@@ -39,20 +39,24 @@
   filter: invert(100%)
 }
 
+/* Style jumbotron */
 .jumbotron {
   background-color: #F8F8F8;
 }
 
+/* Style Recent Articles Sections */
 .article-container{
   border: 2px solid black;
   padding: 10px;
   background-color: #D0CCCC;
 }
 
+/* Style Articles */
 .articles:hover {
 opacity: 2;
 }
 
+/* Style footer */
 footer {
   background-color: #A3CFED;
   padding: 10px;
@@ -66,7 +70,7 @@ footer {
   margin: 25px;
   display: flex;
 }
-/* Add a hover effect */
+/* Add a hover effect to icons */
 .fa:hover {
   opacity: 0.7;
 }
@@ -100,7 +104,7 @@ footer {
   transition-duration: 0.4s;
   border: 2px solid #2D3334;
 }
-/* Add a hover effect */
+/* Add a hover effect to button */
 .block:hover {
   background-color: #D0CCCC;
   color: #2D3334;
@@ -108,7 +112,7 @@ footer {
   transition-duration: 4ms;
 }
 
-/*Fonts */
+/* Fonts */
 h5 {
   font-family: '<Scheherazade New>', serif;
 }
@@ -116,8 +120,16 @@ p {
   font-family: '<Merriweather>', serif;
   font-size: 20px;
 }
+ol {
+  font-family: '<Merriweather>', serif;
+  font-size: 20px;
+}
+li {
+  font-family: '<Merriweather>', serif;
+  font-size: 20px;
+}
 
-/* About Us Page*/
+/* Style About Us*/
 
 .img-container {
   overflow: hidden;
@@ -138,7 +150,6 @@ p {
   background-color: #E6F2FB;
   padding: 10px;
 }
-
 
 .cite-section {
   background-color: #0D0D0D;
@@ -162,9 +173,7 @@ p {
   }
 
 
-/*comments section*/
-
-/*comments section*/
+/* Style Comments Section*/
 .border-top {
   margin-bottom: 30px;
   display: flex;
