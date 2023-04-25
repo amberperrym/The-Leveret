@@ -5,10 +5,10 @@ $TimeDate = $date->format('Y-m-d H:i:s');
 
 require 'database/db_login.php'; //load credentials 
 
-if(!empty($_POST['email']) && !empty($_POST['name']) && !empty($_POST['content'])){ //check if email,name, and content is submitted using POST method
+if(!empty($_POST['email']) && !empty($_POST['name']) && !empty($_POST['content'])){ //check if email, name, and content is submitted using POST method
 
-    //Extracting data from the database 
-    $sql = "INSERT INTO `Comments_Section` (`id`, `created_at`, `content`, `name`, `article_id`, `email`) VALUES (NULL, '$TimeDate', '".$_POST['content']."', '".$_POST['name']."', '".$_POST['article_id']."', '".$_POST['email']."')";
+    
+    $sql = "INSERT INTO `Comments_Section` (`id`, `created_at`, `content`, `name`, `email`) VALUES (NULL, '$TimeDate', '".$_POST['content']."', '".$_POST['name']."', '".$_POST['email']."')";
     $stmt = $conn->prepare($sql);
 
     //Creating New Event
@@ -96,15 +96,15 @@ if(!empty($_POST['email']) && !empty($_POST['name']) && !empty($_POST['content']
       <div class="mb-3">
           <label for="FormControlInput1" class="form-label">Name</label>
           <input type="text" class="form-control" id="FormControlInput1" placeholder="" name="name" required>
-        </div>
+      </div>
       <div class="mb-3">
           <label for="FormControlInput2" class="form-label">Email address</label>
           <input type="email" class="form-control" id="FormControlInput2" placeholder="" name="email" required>
-        </div>
+      </div>
       <div class="mb-3">
           <label for="FormControlText" class="form-label">Comment</label>
           <textarea class="form-control" id="FormControlText" rows="3" name="content" required></textarea>
-        </div>
+      </div>
         <?php echo "<p>".$message."</p>";?>
       <button type="submit">Submit</button>
   </main>
