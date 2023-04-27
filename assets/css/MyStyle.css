@@ -5,6 +5,7 @@
   border-radius: 0;
   background-image: none;
 }
+
 /* Style nav items */
 .nav-item {
   text-align: center;
@@ -15,6 +16,7 @@
   border-radius: 12px;
   font-family: '<Merriweather>', serif;
 }
+
 .navbar-brand {
   padding: 5px;
   text-align: center;
@@ -45,15 +47,16 @@
 }
 
 /* Style Recent Articles Sections */
-.article-container{
+.article-container {
   border: 2px solid black;
   padding: 10px;
   background-color: #D0CCCC;
+  margin-bottom: 10px;
 }
 
 /* Style Articles */
 .articles:hover {
-opacity: 2;
+  opacity: 2;
 }
 
 /* Style footer */
@@ -62,6 +65,7 @@ footer {
   padding: 10px;
   font-family: '<Merriweather>', serif;
 }
+
 /* Style all font awesome icons */
 .fa {
   font-size: 40px;
@@ -70,26 +74,29 @@ footer {
   margin: 25px;
   display: flex;
 }
+
 /* Add a hover effect to icons */
 .fa:hover {
   opacity: 0.7;
 }
+
 /* Set color for each brand */
 /* Facebook */
 .fa-facebook {
   color: #2D3334;
 }
+
 /* Twitter */
 .fa-twitter {
   color: #2D3334;
 }
+
 /* Instagram */
 .fa-instagram {
   color: #2D3334;
 }
 
 /* Style subscribe block button */
-
 .block {
   display: block;
   width: 100%;
@@ -104,6 +111,7 @@ footer {
   transition-duration: 0.4s;
   border: 2px solid #2D3334;
 }
+
 /* Add a hover effect to button */
 .block:hover {
   background-color: #D0CCCC;
@@ -116,21 +124,13 @@ footer {
 h5 {
   font-family: '<Scheherazade New>', serif;
 }
-p {
-  font-family: '<Merriweather>', serif;
-  font-size: 20px;
-}
-ol {
-  font-family: '<Merriweather>', serif;
-  font-size: 20px;
-}
-li {
+
+p, ol, li {
   font-family: '<Merriweather>', serif;
   font-size: 20px;
 }
 
 /* Style About Us*/
-
 .img-container {
   overflow: hidden;
 }
@@ -144,13 +144,14 @@ li {
   border: 1px solid #000000;
 }
 
-/* add border to bio photos*/
+/* Add border to bio photos */
 .bordered {
   border: 2px solid #E6F2FB;
   background-color: #E6F2FB;
   padding: 10px;
 }
 
+/* Style Citation Section */
 .cite-section {
   background-color: #0D0D0D;
   color: #F8F8F8;
@@ -170,10 +171,9 @@ li {
 .hanging-indent {
   text-indent: -2em;
   padding-left: 2em;
-  }
+}
 
-
-/* Style Comments Section*/
+/* Style Comments Section */
 .border-top {
   margin-bottom: 30px;
   display: flex;
@@ -205,5 +205,4 @@ li {
 .comments ul li .replies .comment-text {
   background-color: #fff;
   border: 1px solid #000000;
-
 }

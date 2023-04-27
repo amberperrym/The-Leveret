@@ -23,7 +23,7 @@
   <! -- first row of articles-->
   <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-12 col-md-6 col-lg-3">
+      <div class="col-sm-12 col-md-6 col-lg-3" style = "margin-bottom: 20px;">
       <div style="position: relative; width: 100%;">
       <a href="comments.php">
       <img width="100%" height="175" src="assets/img/FionaBenson.jpeg" style="object-fit: cover;">
@@ -35,7 +35,7 @@
     </div>
   </div>
 
-    <div class="col-sm-12 col-md-6 col-lg-3">
+    <div class="col-sm-12 col-md-6 col-lg-3" style = "margin-bottom: 20px;">
       <div style="position: relative; width: 100%;">
         <img width="100%" height="175" src="assets/img/CharlesDarwin.webp" style="object-fit: cover;">
         <div style="position: absolute; bottom: 0; left: 0; right: 0; background-color: rgba(0, 0, 0, 0.5); color: white; padding: 10px;">
@@ -45,7 +45,7 @@
       </div>
     </div>
 
-    <div class="col-sm-12 col-md-6 col-lg-3">
+    <div class="col-sm-12 col-md-6 col-lg-3" style = "margin-bottom: 20px;">
       <div style="position: relative; width: 100%;">
         <img width="100%" height="175" src="assets/img/JohnJamesA.jpeg" style="object-fit: cover;">
         <div style="position: absolute; bottom: 0; left: 0; right: 0; background-color: rgba(0, 0, 0, 0.5); color: white; padding: 10px;">
@@ -55,7 +55,7 @@
       </div>
     </div>
 
-    <div class="col-sm-12 col-md-6 col-lg-3">
+    <div class="col-sm-12 col-md-6 col-lg-3" style = "margin-bottom: 20px;">
       <div style="position: relative; width: 100%;">
         <img width="100%" height="175" src="assets/img/HistoryOfScience.jpeg" style="object-fit: cover;">
         <div style="position: absolute; bottom: 0; left: 0; right: 0; background-color: rgba(0, 0, 0, 0.5); color: white; padding: 10px;">
@@ -64,13 +64,14 @@
         </div>
       </div>
     </div>
-    </div>
-    </div><br>
+  </div>
+  </div>
+  
 
     <! -- second row of articles -->
   <div class="container-fluid">    
     <div class="row">
-      <div class="col-sm-12 col-md-6 col-lg-3">
+      <div class="col-sm-12 col-md-6 col-lg-3" style = "margin-bottom: 20px;">
       <div style="position: relative; width: 100%;">
         <img width="100%" height="175" src="assets/img/Marg.Cavendish.jpeg" style="object-fit: cover;">
         <div style="position: absolute; bottom: 0; left: 0; right: 0; background-color: rgba(0, 0, 0, 0.5); color: white; padding: 10px;">
@@ -80,7 +81,7 @@
       </div>
     </div>
         
-    <div class="col-sm-12 col-md-6 col-lg-3">
+    <div class="col-sm-12 col-md-6 col-lg-3" style = "margin-bottom: 20px;">
       <div style="position: relative; width: 100%;">
         <img width="100%" height="175" src="assets/img/Walden.jpeg" style="object-fit: cover;">
         <div style="position: absolute; bottom: 0; left: 0; right: 0; background-color: rgba(0, 0, 0, 0.5); color: white; padding: 10px;">
@@ -90,9 +91,9 @@
       </div>
     </div>
 
-    <div class="col-sm-12 col-md-6 col-lg-3">
+    <div class="col-sm-12 col-md-6 col-lg-3" style = "margin-bottom: 20px;">
       <div style="position: relative; width: 100%;">
-        <img width="100%" height="175" src="assets/img/Hieroglyphs2.jpeg" style="object-fit: cover;">
+        <img width="100%" height="175" src="assets/img/Art History1.jpeg" style="object-fit: cover;">
         <div style="position: absolute; bottom: 0; left: 0; right: 0; background-color: rgba(0, 0, 0, 0.5); color: white; padding: 10px;">
           <h5>Article Title</h5>
           <p>Article summary or description</p>
@@ -100,7 +101,7 @@
       </div>
     </div>
 
-    <div class="col-sm-12 col-md-6 col-lg-3">
+    <div class="col-sm-12 col-md-6 col-lg-3" style = "margin-bottom: 20px;">
       <div style="position: relative; width: 100%;">
         <img width="100%" height="175" src="assets/img/AnneCarson.webp" style="object-fit: cover;">
         <div style="position: absolute; bottom: 0; left: 0; right: 0; background-color: rgba(0, 0, 0, 0.5); color: white; padding: 10px;">
@@ -110,7 +111,8 @@
       </div>
     </div>
   </div>
-</div><br>
+  </div>
+</div>
 </div><br>
 
 <button type="button" class="block">Subscribe to our Newsletter</button><br>
