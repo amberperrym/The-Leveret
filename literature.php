@@ -68,7 +68,7 @@
       </div> 
     </div>
     </div> 
-</div><br>
+</div>
 </div><br>
 
 <button type="button" class="block">Subscribe to our Newsletter</button><br>
