@@ -33,52 +33,75 @@ if(!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['comment']
 
 
 <!-- blog posts would ususally go within this empty space--> 
-<div style="height: 700px;"></div>
+<div style="height: 700px;"></div><hr>
 
 <!-- comments section--> 
-<div class="border-top"><div>
-<div class="comments">
-  <h2>Comments</h2>
-  <ul>
-    <li>
-      <div class="comment">
-        <div class="comment-text">
-          <div class="comment-header">
-            <span class="username">Username 1</span>
-            <span class="timestamp">2 hours ago</span>
-            <a href="#" class="reply-link">Reply</a>date_diffdd
-          </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, justo ut dictum viverra, arcu nulla rhoncus erat, vel sollicitudin tellus eros vitae arcu.</p>
-        </div>
-      </div>
-      <ul class="replies">
-        <li>
-          <div class="comment">
-            <div class="comment-text">
-              <div class="comment-header">
-                <span class="username">Username 2</span>
-                <span class="timestamp">1 hour ago</span>
-                <a href="#" class="reply-link">Reply</a>
+
+<div class="col-md-11 col-lg-11">
+  <h3 class="mb-4 pb-2">Comments</h3>
+
+  <div class="row">
+    <div class="col">
+      <div class="d-flex flex-start">
+        <div class="user-photo"></div> 
+        <div class="flex-grow-1 flex-shrink-1">
+          <div class="card mb-4">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center">
+                <p class="mb-1">
+                  Jane Doe <span class="small">- 2 hours ago</span>
+                </p>
+                <a href="#">Reply</a>
               </div>
-              <p>Nullam vel gravida tellus, eu dapibus velit. Vivamus volutpat tellus ipsum, vel mattis nibh rutrum eget. Phasellus consectetur tristique velit, nec congue enim fermentum ac.</p>
+              <p class="small mb-0">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, justo ut dictum viverra, arcu nulla rhoncus erat, vel sollicitudin tellus eros vitae arcu.
+              </p>
             </div>
           </div>
-        </li>
-      </ul>
-    </li>
-    <li>
-      <div class="comment">
-        <div class="comment-text">
-          <div class="comment-header">
-            <span class="username">Username 3</span>
-            <span class="timestamp">30 minutes ago</span>
-            <a href="#" class="reply-link">Reply</a>
+
+          <div class="d-flex flex-start">
+            <a class="me-3" href="#">
+              <div class="user-photo"></div> 
+            </a>
+            <div class="flex-grow-1 flex-shrink-1">
+              <div class="card mb-4">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <p class="mb-1">
+                      John Smith <span class="small">- 4 hours ago</span>
+                    </p>
+                    <a href="#">Reply</a>
+                  </div>
+                  <p class="small mb-0">
+                    Nullam vel gravida tellus, eu dapibus velit. Vivamus volutpat tellus ipsum, vel mattis nibh rutrum eget. Phasellus consectetur tristique velit, nec congue enim fermentum ac..
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
-          <p>Nunc interdum odio eget risus pulvinar, eu gravida lorem pellentesque. Suspendisse varius lacinia nisl. Nam dapibus, dolor eget rhoncus bibendum, quam orci pellentesque mauris, non blandit nulla nulla in eros.</p>
         </div>
       </div>
-    </li>
-  </ul>
+
+      <div class="d-flex flex-start">
+        <div class="user-photo"></div> 
+        <div class="flex-grow-1 flex-shrink-1">
+          <div class="card mb-4">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center">
+                <p class="mb-1">
+                  Jane Smith <span class="small">- 2 hours ago</span>
+                </p>
+                <a href="#">Reply</a>
+              </div>
+              <p class="small mb-0">
+                Nunc interdum odio eget risus pulvinar, eu gravida lorem pellentesque. Suspendisse varius lacinia nisl. Nam dapibus, dolor eget rhoncus bibendum, quam orci pellentesque mauris, non blandit nulla nulla in eros.
+              </p>
+            </div>
+          </div>
+         </div>
+        </div>
+      </div>
+    </div><br>
 
 <!-- comments form--> 
 <div class="container">

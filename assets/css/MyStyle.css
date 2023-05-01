@@ -78,6 +78,7 @@ footer {
 /* Add a hover effect to icons */
 .fa:hover {
   opacity: 0.7;
+  font-size: 50px;
 }
 
 /* Set color for each brand */
@@ -174,35 +175,12 @@ p, ol, li {
 }
 
 /* Style Comments Section */
-.border-top {
-  margin-bottom: 30px;
-  display: flex;
-  flex-direction: column;
-  padding: 15px;
-}
 
-.comments ul li {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
 
-.comments ul li .comment {
-  margin-bottom: 20px;
-}
-
-.comments ul li .comment-text {
-  padding: 10px;
-  background-color: #f5f5f5;
-  border-radius: 5px;
-  border: 1px solid #000000;
-}
-
-.comments ul li .replies {
-  margin-left: 20px;
-}
-
-.comments ul li .replies .comment-text {
-  background-color: #fff;
-  border: 1px solid #000000;
+.user-photo {
+  float: left;
+  width: 70px; 
+  height: 70px; 
+  margin-right: 10px; 
+  background-color: #CCCCCC; 
 }
