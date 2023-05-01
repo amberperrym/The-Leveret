@@ -83,7 +83,7 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['comment'])) 
 <div class="container">
 <div class="row">
     <h3>Add a Comment</h3>
-  <form action="#" method="POST" id="commentsform"> <!--Add action to refresh page using # & define method as POST" -->
+  <form action="comments.php" method="POST" id="commentsform"> <!--Add action to refresh page using # & define method as POST" -->
       <div class="mb-3">
         <input type="text" class="form-control" id="name" name="name" required>
         <label for="name" class="form-label">Name</label>
