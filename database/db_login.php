@@ -1,14 +1,19 @@
+
 <?php
-$server = "localhost:8889";
-$database = "The_Leveret";
-$username = "root"; 
+
+$servername = "localhost:8889";
+$username = "root";
 $password = "root";
+$dbname = "The_Leveret";
 
+// Create connection   
+$conn = new mysqli($servername,
+    $username, $password, $dbname);
 
-try{
-$conn = new PDO("mysql:host=$server;dbname=$database;", $username,
-$password);
-} catch(PDOException $e){
-die( "Connection failed:" . $e->getMessage()); }
+// Check connection 
+if ($conn->connect_error) {
+    die("Connection failed: "
+        . $conn->connect_error);
+}
+echo "Connected successfully";
 ?>
-

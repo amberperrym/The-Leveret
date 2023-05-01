@@ -8,7 +8,7 @@ require 'database/db_login.php'; //load credentials
 if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['comment'])) {//check if email, name, and content is submitted using POST method
 
 
-    $sql = "INSERT INTO `Comments_Section` (`id`, `time`, `comment`, `name`, `email`) VALUES (NULL, $DateTime,'".$_POST['comment']."', '".$_POST['name']."', '".$_POST['email']."')";
+    $sql = "INSERT INTO `comments_section` (`id`,`time`, `comment`, `name`, `email`) VALUES (NULL, $TimeDate,'".$_POST['comment']."', '".$_POST['name']."', '".$_POST['email']."')";
     $stmt = $conn->prepare($sql);
 
     //Creating New Event
@@ -45,7 +45,7 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['comment'])) 
           <div class="comment-header">
             <span class="username">Username 1</span>
             <span class="timestamp">2 hours ago</span>
-            <a href="#" class="reply-link">Reply</a>
+            <a href="#" class="reply-link">Reply</a>date_diffdd
           </div>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, justo ut dictum viverra, arcu nulla rhoncus erat, vel sollicitudin tellus eros vitae arcu.</p>
         </div>
@@ -96,9 +96,8 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['comment'])) 
           <label for="email" class="form-label">Comment</label>
           <textarea class="form-control" id="comment" rows="3"  name="comment" required></textarea>
       </div>
-
         <?php echo "<p>".$message."</p>";?>
-      <button type="submit">Submit</button>
+      <button type="submit" name="submit" value="submit">Submit</button>
   </form>
 </div>
 </div><br>
