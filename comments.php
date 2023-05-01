@@ -8,7 +8,7 @@ require 'database/db_login.php'; //load credentials
 if(!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['comment'])) {//check if email, name, and content is submitted using POST method
 
 
-    $sql = "INSERT INTO `comments_section` (`id`,`time`, `comment`, `name`, `email`) VALUES (NULL, $TimeDate,'".$_POST['comment']."', '".$_POST['name']."', '".$_POST['email']."')";
+    $sql = "INSERT INTO `comments_section` (`id`,`time`, `comment`, `name`, `email`) VALUES (NULL, CURRENT_TIMESTAMP,'".$_POST['comment']."', '".$_POST['name']."', '".$_POST['email']."')";
     $stmt = $conn->prepare($sql);
 
     //Creating New Event
@@ -86,12 +86,12 @@ if(!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['comment']
     <h3>Add a Comment</h3>
   <form action="comments.php" method="POST" id="commentsform"> <!--Add action to refresh page using # & define method as POST" -->
       <div class="mb-3">
-        <label for="name" class="form-label">Name</label>
+      <label for="name" class="form-label">Name</label>
         <input type="text" class="form-control" id="name" name="name" required>
       </div>
       <div class="mb-3">
       <label for="email" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="email" name="email" required>
+        <input type="email" class="form-control" id="email"name="email" required>
       </div>
       <div class="mb-3">
           <label for="comment" class="form-label">Comment</label>
