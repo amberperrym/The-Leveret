@@ -5,7 +5,7 @@ $TimeDate = $date->format('Y-m-d H:i:s');
 
 require 'database/db_login.php'; //load credentials 
 
-if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['comment'])) {//check if email, name, and content is submitted using POST method
+if(!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['comment'])) {//check if email, name, and content is submitted using POST method
 
 
     $sql = "INSERT INTO `comments_section` (`id`,`time`, `comment`, `name`, `email`) VALUES (NULL, $TimeDate,'".$_POST['comment']."', '".$_POST['name']."', '".$_POST['email']."')";
@@ -13,6 +13,7 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['comment'])) 
 
     //Creating New Event
     if( $stmt->execute() ){  //executing query to update the database 
+
         $message="Comment Submitted"; //Message to show comment was submitted
     } else {
         $message="Error was encountered in submitting comment."; //Message to show error in submitting comment
@@ -85,15 +86,15 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['comment'])) 
     <h3>Add a Comment</h3>
   <form action="comments.php" method="POST" id="commentsform"> <!--Add action to refresh page using # & define method as POST" -->
       <div class="mb-3">
-        <input type="text" class="form-control" id="name" name="name" required>
         <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" name="name" required>
       </div>
       <div class="mb-3">
-        <input type="email" class="form-control" id="email"name="email" required>
-        <label for="email" class="form-label">Email address</label>
+      <label for="email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email" name="email" required>
       </div>
       <div class="mb-3">
-          <label for="email" class="form-label">Comment</label>
+          <label for="comment" class="form-label">Comment</label>
           <textarea class="form-control" id="comment" rows="3"  name="comment" required></textarea>
       </div>
         <?php echo "<p>".$message."</p>";?>
